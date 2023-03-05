@@ -1,0 +1,25 @@
+= Test book
+Author
+:doctype: book
+:imagesdir: images
+:hardbreaks-option:
+:toc: macro
+:toclevels: 3
+:bibtex-file: ref.bib
+:bibtex-style: ieee 
+:sectnums:
+
+[quote, Someone]
+____
+This is a quote
+____
+
+toc::[]
+
+== Chapter One
+
+image::test.png[]
+
+[bibliography]
+== Bibliography
+bibliography::[]

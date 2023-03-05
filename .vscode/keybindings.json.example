@@ -1,0 +1,20 @@
+// example keyboard bindings
+// Open the command palette -> Preferences:Open Keyboard Shortcuts (JSON)
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+alt+e",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Save as Epub"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Save as PDF"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Save as HTML"
+    }   
+]

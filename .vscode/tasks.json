@@ -6,17 +6,17 @@
         {
             "label": "Save as Epub",
             "type": "shell",
-            "command": "docker run -v ./:/documents/ asciidoctor/docker-asciidoctor /bin/bash .scripts/toepub.sh"
+            "command": "docker run -v ${PWD}:/documents/ asciidoctor/docker-asciidoctor /bin/bash .scripts/toepub.sh"
         },
         {
             "label": "Save as PDF",
             "type": "shell",
-            "command": "docker run -v ./:/documents/ asciidoctor/docker-asciidoctor /bin/bash .scripts/topdf.sh"
+            "command": "docker run -v ${PWD}:/documents/ asciidoctor/docker-asciidoctor /bin/bash .scripts/topdf.sh"
         }, 
         {
             "label": "Save as HTML",
             "type": "shell",
-            "command": "docker run -v ./:/documents/ asciidoctor/docker-asciidoctor /bin/bash .scripts/tohtml.sh"
+            "command": "docker run -v ${PWD}:/documents/ asciidoctor/docker-asciidoctor /bin/bash .scripts/tohtml.sh"
         }
     ]
 }

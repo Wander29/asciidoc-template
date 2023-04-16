@@ -1,2 +1,2 @@
 #!/bin/sh
-asciidoctor -r asciidoctor-bibtex main.adoc -o output/my_lojong.html
+asciidoctor -r asciidoctor-bibtex main.adoc -o output/main.html

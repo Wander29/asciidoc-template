@@ -1,0 +1,21 @@
+// example user settings
+// Open the command palette -> Preferences:Open User Settings (JSON)`
+{
+    // set your (white?) theme
+    "workbench.colorTheme": "Visual Studio Light",
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 18,
+    "cmake.configureOnOpen": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    "git.autofetch": true,
+    // libertinus font link: https://github.com/alerque/libertinus/releases
+    "[asciidoc]": {
+        "editor.fontFamily": "Libertinus Serif"
+    },
+    "window.zoomLevel": 1,
+    // spell checker 
+    // install streetsidesoftware.code-spell-checker-italian
+    // for italian spell checking (and english, that comes by default)
+    "cSpell.language": "en,it,it-IT"
+}

@@ -1,25 +1,29 @@
 = Test book
 Author
+// can be article, book, ... https://docs.asciidoctor.org/asciidoc/latest/document/doctype/
 :doctype: book
+// directory containing images
 :imagesdir: images
+// preserve line breaks in all paragraphs throughout your entire document
 :hardbreaks-option:
+// insert TOC where you desire, through toc::[]
 :toc: macro
+// put sections in TOC until 1.2.3 level (until '====')
 :toclevels: 3
+// references file, you can use BibIt Now! browser extension for help
 :bibtex-file: ref.bib
+// scientific reference style
 :bibtex-style: ieee 
+// write numbers before each section title
 :sectnums:
 
-[quote, Someone]
-____
-This is a quote
-____
-
+// put TOC here, before any chapter
 toc::[]
 
-== Chapter One
+// include chapters, one by one
+include::chapters/one.adoc[]
 
-image::test.png[]
-
+// print all references
 [bibliography]
 == Bibliography
 bibliography::[]

@@ -1,2 +1,2 @@
 #!/bin/sh
-asciidoctor -r asciidoctor-bibtex main.adoc -o output/main.html
+asciidoctor -r asciidoctor-bibtex main.adoc -o  $(cat .scripts/output_name.txt).html

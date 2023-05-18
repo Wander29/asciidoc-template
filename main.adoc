@@ -10,12 +10,16 @@ Author
 :toc: macro
 // put sections in TOC until 1.2.3 level (until '====')
 :toclevels: 3
+:toc-title: <Table of Contents>
 // references file, you can use BibIt Now! browser extension for help
 :bibtex-file: ref.bib
 // scientific reference style
-:bibtex-style: ieee 
+:bibtex-style: ieee
+// other styles are "chicago-author-date", "apa", ... 
+// see here for other info: https://github.com/asciidoctor/asciidoctor-bibtex  
 // write numbers before each section title
 :sectnums:
+:!chapter-signifier:
 
 // put TOC here, before any chapter
 toc::[]

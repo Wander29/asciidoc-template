@@ -17,6 +17,10 @@ Author
 :bibtex-style: ieee
 // other styles are "chicago-author-date", "apa", ... 
 // see here for other info: https://github.com/asciidoctor/asciidoctor-bibtex  
+// custom styles
+:stylesheet: html_custom_style.css
+:pdf-theme: pdf_custom_style.yml
+:pdf-themesdir: styles
 // write numbers before each section title
 :sectnums:
 :!chapter-signifier:

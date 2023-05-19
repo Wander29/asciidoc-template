@@ -1,0 +1,27 @@
+extends: default
+# indent start of a paragraph
+prose:
+  text-indent-inner: 10
+
+page:
+  numbering:
+    start-at: after-toc
+  margin: 4cm 3cm
+  size: A3
+
+base:
+  font:
+    size: 14
+    family: Noto Serif
+
+image:
+  align: center
+  caption:
+    align: inherit
+  title:
+    align: inherit
+
+role:
+  page:
+    font-style: bold
+
